@@ -1,0 +1,67 @@
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+}
+
+div#header {
+	width: 100%;
+	height: 60px;
+	background: #2F4E6F;
+	border-bottom: 1px solid #000;
+}
+
+div#logo {
+	float: left;
+	width: 300px;
+	height: 60px;
+}
+
+div#nav-top {
+	float: left;
+	height: 60px;
+}
+
+div#nav-top ul {
+	text-decoration: none;
+}
+
+div#nav-top li {
+	height: 60px;
+	background: #CC3;
+	display: inline;
+	padding: 0px 10px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+div#container {
+	overflow:hidden;
+}
+
+div#sidebar {
+	height: 200px;
+	background: #2F4E6F;
+	float:left;
+    width:200px;
+	border-right: 1px solid #000;
+}
+
+div#content {
+	margin: 0 0 0 200px;
+	height: 500px;
+	background: #CCCCCC;
+}
+
+div#footer {
+	width: 100%;
+	height: 100px;
+	background: #2F4E6F;
+	clear:both;
+	border-top: 1px solid #000;
+}
