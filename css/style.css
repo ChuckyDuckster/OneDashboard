@@ -1,4 +1,13 @@
-/* CSS Document */
+/**************************/
+/* OneDashboard Project   */
+/**************************/
+/* Collaborators:         */
+/*  - Robert Arango       */
+/*  - Timothy Terrell     */
+/* Start Date: 9/4/2012   */
+/**************************/
+
+/*** BODY, FOOTER, CSS RESET, CONTAINER (CONTENT & SIDEBAR) ***/
 
 * {
 	margin: 0px;
@@ -6,19 +15,41 @@
 }
 
 body {
-	
+	min-width:1000px;
+	background: #E8C782;
+	color: #FFFFFF;
 }
+
+div#container {
+	overflow:hidden;
+	height:500px;
+}
+
+div#content {
+	margin: 0 0 0 200px;
+	height: 100%;
+}
+
+div#footer {
+	text-align: center;
+	width: 100%;
+	background: #333333;
+	clear:both;
+	border-top: 1px solid #000;
+}
+
+/*** HEADER AND HEADER NAVIGATION ***/
 
 div#header {
 	width: 100%;
-	height: 60px;
-	background: #2F4E6F;
+	height: 80px;
+	background: #333333;
 	border-bottom: 1px solid #000;
 }
 
 div#logo {
 	float: left;
-	width: 300px;
+	width: 200px;
 	height: 60px;
 }
 
@@ -40,28 +71,45 @@ div#nav-top li {
 	border-left: 1px solid #000;
 }
 
-div#container {
-	overflow:hidden;
+div#profile {
+	float: right;
+	text-align: right;
+	width: 27%;
 }
 
+div#profile_pic {
+	float:right;
+}
+
+div#profile_options {
+	flaot:left;
+	padding: 5px;
+}
+
+/*** SIDEBAR AND SIDEBAR NAVIGATION ***/
+
 div#sidebar {
-	height: 200px;
-	background: #2F4E6F;
+	height: 100%;
+	background: #333333;
 	float:left;
     width:200px;
 	border-right: 1px solid #000;
 }
 
-div#content {
-	margin: 0 0 0 200px;
-	height: 500px;
-	background: #CCCCCC;
+div#nav-left {
+	
 }
 
-div#footer {
-	width: 100%;
-	height: 100px;
-	background: #2F4E6F;
-	clear:both;
-	border-top: 1px solid #000;
+div#nav-left ul {
+	
+}
+
+div#nav-left li {
+	
+}
+
+/***  ***/
+
+a:link, a:visited {
+	color: #FFFFFF;
 }

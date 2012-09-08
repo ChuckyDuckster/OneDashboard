@@ -1,0 +1,29 @@
+/*** LOGIN SCREEN CSS ***/
+
+form.loginForm {
+	width:500px;
+	height:500px;
+	margin: 20px;
+}
+
+label {
+	margin: 10px 0px;
+	padding: 2px;
+	text-align:right;
+	width: 500px;
+	-webkit-border-radius:5px;
+	font-size:30px;
+}
+
+input {
+	margin: 10px 0px;
+	padding: 2px;
+	width: 400px;
+	-webkit-border-radius:5px;
+	font-size: 22px;
+}
+
+input#submit {
+	padding: 2px;
+	width: 100px;
+}
